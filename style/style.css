@@ -78,6 +78,7 @@ span {
 #promo {
     margin: 180px 100px 0 0; 
     float: right;
+    opacity: 0.9;
 }
 
 h1 {
@@ -106,8 +107,11 @@ h6 {
     color: skyblue;
     font-weight: bold;
     text-align: center;
-    padding: 5px 0 0 0;
-    
+    padding: 5px 0 0 0;  
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 #content {
@@ -115,24 +119,93 @@ h6 {
 }
 
 .container-fluid {
+    margin: 20px 0 0 0;
     width: 100%;
-    height: 400px;
-    background-color: skyblue;
+    height: 325px;
+    background-color: azure;
 }
 
 .row {
     
 }
 
-.col-md-4 {
-    
+.col-md-4 img {
+    overflow: hidden;
+    width: 100%;
+    height: 325px;
 }
 
 #sales {
-    height: 300px;
+    margin: 20px 0 0 0;
+    height: 460px;
     background-color: gainsboro;
 }
 
-.col-md-6 {
-    
+.col-md-6 img {
+    height: 460px;
+    width: 100%;
 }
+
+#items {
+    margin: 20px 0 0 0;
+    width: 100%;
+    height: 400px;
+    background-color: azure;
+}
+
+.col-md-5 img, .col-md-7 img {
+    height: 400px;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    margin: 20px 0 0 0;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#new-arrivals {
+    font-family: "Raleway";
+    font-size: 1.8em;
+    position: relative;
+    bottom: 45px; 
+    left: 270px;
+}
+
+#glamour, #luxury {
+    font-family: "Raleway";
+    font-size: 1.8em;
+    position: relative;
+    bottom: 45px; 
+    left: 270px;
+}
+
+#total {
+    color: cyan;
+    margin-left: -45px;
+}
+
+#shopping-bar p {
+    font-family: Raleway;
+    font-weight: bold;
+}
+
+#children, #accessorize {
+    color: white;
+    font-family: "Raleway";
+    font-size: 3em;
+    position: relative;
+    bottom: 70px; 
+    left: 30px;
+}
+
+
+
+
